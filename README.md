@@ -1,6 +1,6 @@
 # Analog-FRAM-RTC
 
-Code for firmware and simple wireframes for the Androd App
+Code for firmware and simple wireframes for the Android App
 
 
 Some background on the project:
@@ -17,3 +17,11 @@ Hour_Min = 4 digit integer of the time (e.g., 1325)
 
 Note: we don't handle daylight savings time or time zones currently, Mike needs to research this prior to customer ship
 
+Some thoughts on the App:
+
+It would make sense to be able to enter the max HP of the sensor range, that way we can present data in HP and not the 4-20 range. So customer enters max HP of 50 HP and 20mA = 50 and 12mA = 25HP (12 is halfway from 4-20).
+
+The app will need to read the data stored in the FRAM memory and present it in correct time sequence.
+
+Future iterations of the App:
+Allow customer to set low and high HP thresholds for warnings
