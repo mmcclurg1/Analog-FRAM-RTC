@@ -23,5 +23,6 @@ It would make sense to be able to enter the max HP of the sensor range, that way
 
 The app will need to read the data stored in the FRAM memory and present it in correct time sequence.
 
-Future iterations of the App:
+Future iterations of the App, may not be needed for first version:
 Allow customer to set low and high HP thresholds for warnings
+Allow customer to toggle Sample intervals from 10 minutes to 30 minutes
