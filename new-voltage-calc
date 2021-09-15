@@ -1,6 +1,6 @@
 
-/Maximum Voltage of 1024 corresponds to 3.3V and 20 (full scale)
-/Minimum voltage will be 102.4 = .33V and 4 (lowest point on scale)
+//Maximum Voltage of 1024 corresponds to 3.3V and 20 (full scale)
+//Minimum voltage will be 102.4 = .33V and 4 (lowest point on scale)
 
 int MAX_VOLTAGE = 1024;
 long MIN_VOLTAGE = MAX_VOLTAGE/10.0;
